@@ -3,10 +3,10 @@
 
 #include "xianmetro.h"
 
-using namespace std;
+
 
 int main()
 {
-	puts("Hello CMake.";
+	puts("Hello CMake.");
 	return 0;
 }

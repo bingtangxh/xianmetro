@@ -4,5 +4,6 @@
 #pragma once
 
 #include <stdio.h>
+#include "stations.h"
 
 // TODO: 在此处引用程序需要的其他标头。

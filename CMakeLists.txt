@@ -12,7 +12,7 @@ endif()
 project ("xianmetro")
 
 # 将源代码添加到此项目的可执行文件。
-add_executable (xianmetro "xianmetro.c" "xianmetro.h")
+add_executable (xianmetro "xianmetro.c" "xianmetro.h" "stations.h" "stations.c")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET xianmetro PROPERTY CXX_STANDARD 20)
