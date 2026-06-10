@@ -155,7 +155,7 @@ _Station station[] = {
     {L"华清池","HUAQINGCHI","Huaqing Pool",152,{9,0}},
     {L"东三岔","DONGSANCHA","East Sancha",153,{9,0}},
     {L"银桥大道","YINQIAODADAO","Yinqiao Avenue",154,{9,0}},
-    {L"秦陵西","QINLINGXI","Qinling West",155,{9,0}},
+    {L"秦陵西","QINLINGXI","Qinling W.",155,{9,0}},
     {L"文景山公园","WENJINGSHAN GONGYUAN","Wenjingshan Park",156,{14,0}},
     {L"西安工大·武德路","XIAN GONGDA·WUDELU","XATU·Wude Road",157,{14,10,0}},
     {L"北辰","BEICHEN","Beichen",158,{14,0}},
@@ -259,7 +259,7 @@ _Station station[] = {
     {L"东兆余","DONGZHAOYU","Dongzhaoyu",256,{15,0}}
 };
 
-uint16_t alongSataions[24][50] = {
+uint16_t alongStaions[][50] = {
     // 1 号线
     {192,193,194,195,196,197,198,90,91,92,93,18,19,20,21,22,23,24,25,26,10,27,28,29,30,31,32,33,34,35},
     // 2 号线
@@ -292,7 +292,6 @@ uint16_t alongSataions[24][50] = {
     {247,248,249,250,133,251,252,253,254,38,255,67,256},
     // 16 号线
     {185,186,92,187,188,189,190,111,191},
-
     // 西户线
     // {116,165}
 };
